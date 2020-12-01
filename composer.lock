@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aa60de60de6a382e42b4f73eb88cf5ad",
+    "content-hash": "30d42b458ef76064a5ffcc3b8bc17fd4",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -924,6 +924,53 @@
                 }
             ],
             "time": "2020-07-23T08:41:23+00:00"
+        },
+        {
+            "name": "motikan2010/sensitive-response-detector",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/motikan2010/Sensitive-Response-Detector.git",
+                "reference": "ea666b88d64c32e5f61d01799bd2f295bb45f000"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/motikan2010/Sensitive-Response-Detector/zipball/ea666b88d64c32e5f61d01799bd2f295bb45f000",
+                "reference": "ea666b88d64c32e5f61d01799bd2f295bb45f000",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~6.0",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "orchestra/testbench": "4.*",
+                "phpunit/phpunit": "^9.4"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Motikan2010\\SensitiveResponseDetector\\Provider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Motikan2010\\SensitiveResponseDetector\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "motikan2010",
+                    "email": "motikan2010@gmail.com"
+                }
+            ],
+            "time": "2020-12-01T12:22:40+00:00"
         },
         {
             "name": "nesbot/carbon",
