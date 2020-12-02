@@ -12,5 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index.index');
 });
+
+Route::group(['middleware' => 'sensitive.detector'], function () {
+    Route::get('/output', 'IndexController@output')->name('output');
+});
+
+
